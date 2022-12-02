@@ -1,0 +1,316 @@
+body{
+    background-color:hsl(226, 43%, 10%);
+    font-family:"Rubik";
+    color:white;
+}
+
+#customer{
+    
+    margin:3% 0 0 0;
+    background-color: hsl(246, 80%, 60%);
+    width:18vw;
+    height:55vh;
+    border-radius:15px;
+    z-index: 3;
+    position:relative;
+}
+
+#timeframe{
+    padding-top:14%;
+    margin:-15% 0 2% 0;
+    background-color:hsl(235, 46%, 20%);
+    color:hsl(235, 45%, 61%);
+    height:19.5vh;
+    width:18vw;
+    border-radius:15px;
+}
+
+#work{
+    margin-bottom:-40%;
+    background-color: hsl(15, 100%, 70%);
+    height:18vh;
+    width:20vw;
+    border-radius:15px;
+    overflow: hidden;
+}
+
+#play{
+    margin-bottom:-40%;
+    background-color: hsl(195, 74%, 62%);
+    height:18vh;
+    width:20vw;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+#study{
+    margin-bottom:-40%;
+    background-color:hsl(348, 100%, 68%) ;
+    height:18vh;
+    width:20vw;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+#exercise{
+    margin-bottom:-40%;
+    background-color: hsl(145, 58%, 55%);
+    height:18vh;
+    width:20vw;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+#social{
+    margin-bottom:-40%;
+    background-color:hsl(264, 64%, 52%);
+    height:18vh;
+    width:20vw;
+    border-radius:15px;
+    overflow: hidden;
+}
+
+#self-care{
+    margin-bottom:-40%;
+    background-color:hsl(43, 84%, 65%);
+    height:18vh;
+    width:20vw;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.data{
+    margin:10% 0 10% 0;
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    height:28vh;
+    width:20vw;
+    border-radius:15px;
+    z-index:1;
+}
+
+#profile-pic{
+    border: 5px solid white;
+    border-radius: 50%;;
+    scale:70%;
+    margin: 8% 0 0 0;
+}
+
+.container{
+    padding:10% 10% 0 10%;
+    margin:0 10% 0 10%;
+    background-color: rgb(202, 5, 5, 0);
+    margin:auto;
+    display:flex;
+}
+
+.left-box{
+    background-color:rgba(255, 255, 255, 0);
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    height:95vh;
+
+}
+
+.right-box{
+    margin:0 0 0 1%;
+    background-color:rgba(255, 255, 255, 0);
+    width:75%;
+    height:95vh;
+    display:flex;
+}
+
+.column{
+    padding: 1% 1% 1% 1%;
+}
+
+h1{
+    padding: 0 0 10% 10%;
+    margin: -5% 0 0 0;
+    font-size:70px;
+    font-weight:300;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 40px;
+    padding:0 0 0 20%;
+    letter-spacing: 2px;
+    word-spacing: 5;
+}
+
+h4{
+    padding: 0 0 0 15%;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h5{
+    padding: 0 0 0 15%;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+h6{
+    font-size:22px;
+    font-weight:400;
+    padding: 10% 0 0 6%;
+    
+}
+
+
+.daily{
+    margin: 0 0 0 10%;
+    padding: 0 0 0 0;
+    font-size: 20px;
+}
+
+.weekly{
+    visibility:hidden;
+}
+
+.monthly{
+    visibility:hidden;
+}
+
+
+.dots{
+    scale:125%;
+    margin-left:65%;
+    
+}
+
+
+@media screen and (max-width:420px){
+
+    .container{
+        margin:0;
+        padding:0;
+        display:block;
+        
+    }
+
+    .column{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    #customer{
+        height:20vh;
+        width:100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    #profile-pic{
+        scale:40%;
+        margin: -9% 0 0 -15%;
+
+    }
+
+    #timeframe{
+        
+        display:flex;
+        flex-direction: row;
+        height:15vh;
+        width:100%;
+        margin: -25% 0 0 0;
+    }
+
+    
+    .right-box{
+        margin: 0 0 0 0;
+        width:100%;
+        display:inline;
+        background-color: white;
+    }
+    #work{
+        width:100%;
+        margin-top:-145%;
+        padding-top:0;
+        
+
+    }
+
+    #play{
+        width:100%;
+
+    }
+
+    #study{
+        width:100%;
+
+    }
+
+    #exercise{
+        width:100%
+
+    }
+
+
+    #social{
+        width:100%;
+
+    }
+
+
+    #self-care{
+        width:100%;
+
+    }
+
+    .data{
+        height:15vh;
+        width:100%;
+        margin: 10% 0 3% 0;
+        padding: 0 0 0 0;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .daily{
+        display:flex;
+        flex-direction: row;        
+
+    }
+
+    h1{
+        margin:0 25px -5px -10px;
+        padding: 0 0 0 0;
+        font-size:65px
+    }
+
+    h2{
+        font-size: 12px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    h3{
+
+    }
+
+    h4{
+        margin: 0 0 0 0;
+        padding: 20% 5% 0 9%;
+        
+    }
+
+    h5{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-size:12px;
+    }
+
+    h6{
+        margin: 15px 0 0 35px;
+        padding: 0 0 0 0;
+        }
+    .mobile-text{
+        font-size: 22px;
+        margin: 25px 0 0 35px;
+    } 
+    }
